@@ -1,5 +1,0 @@
-kv_namespaces = [
-  { id = "MY_KV", binding="MY_KV" }
-]
-pages_build_output_dir = "./build/client"
-  
