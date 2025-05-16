@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "description": "Portfolio site for udhayakumar",
+  "description": "Portfolio site for Udhayakumar",
   "author": "Udhayakumar",
   "sideEffects": false,
   "type": "module",
@@ -9,10 +9,8 @@
     "dev": "node ./scripts/dev.cjs && remix vite:dev",
     "start": "node ./scripts/dev.cjs && remix vite:dev",
     "postinstall": "node ./scripts/draco.cjs",
-    
     "dev:storybook": "storybook dev -p 6006",
-    "build:storybook": "storybook build",
-    "deploy:storybook": "wrangler pages deploy ./storybook-static --project-name portfolio-storybook --branch main"
+    "build:storybook": "storybook build"
   },
   "dependencies": {
     "@aws-sdk/client-ses": "^3.515.0",
@@ -33,7 +31,6 @@
     "sonner": "^2.0.3",
     "three": "^0.161.0",
     "three-stdlib": "^2.29.4",
-    "wrangler": "^4.9.1",
     "zcatalyst-sdk-node": "^2.5.1"
   },
   "devDependencies": {
@@ -65,8 +62,7 @@
     "sharp": "^0.34.1",
     "storybook": "^8.6.12",
     "vite": "^5.1.0",
-    "vite-jsconfig-paths": "^2.0.1",
-    "vite-plugin-wrangler-dev": "^0.0.0"
+    "vite-jsconfig-paths": "^2.0.1"
   },
   "engines": {
     "node": ">=19.9.0"
